@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    height: 30%;
+    width: 85%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.display {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
